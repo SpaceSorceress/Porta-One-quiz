@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.results {
+  padding: 30px;
+}
+
+p {
+  min-width: 400px;
+  display: table-row;
+}
+
+p span {
+  display: table-cell;
+  min-width: 260px;
+}
+
+p span.number {
+  font-weight: bold;
+  min-width: 130px;
+  text-align: end;
+}
